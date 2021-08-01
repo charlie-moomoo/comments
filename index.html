@@ -3,10 +3,10 @@
         const gitalk = new Gitalk({
   clientID: 'b33544988a5055def205',
   clientSecret: 'd154780119b7b02570c8d622fee7573c8e3c848f',
-  repo: 'charlie-moomoo/commlents',      // The repository of store comments,
+  repo: 'charlie-moomoo/comments',      // The repository of store comments,
   owner: 'charlie-moomoo',
   admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
-  id: location.pathname,      // Ensure uniqueness and length less than 50
+  id: 'cm-comment',      // Ensure uniqueness and length less than 50
   distractionFreeMode: false  // Facebook-like distraction free mode
 })
 
